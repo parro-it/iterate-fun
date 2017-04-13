@@ -1,6 +1,6 @@
 {
   "name": "iterate-fun",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A function toolbelt to work with iterables",
   "repository": "parro-it/iterate-fun",
   "author": "Andrea <andrea@parro.it>",
