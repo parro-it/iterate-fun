@@ -1,4 +1,4 @@
-import $package_var from '$package_name';
+import iterateFun from 'iterate-fun';
 
-console.log({$package_var});
+console.log({iterateFun});
 

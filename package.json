@@ -1,9 +1,9 @@
 {
-  "name": "$package_name",
+  "name": "iterate-fun",
   "version": "0.0.0",
-  "description": "$package_description",
-  "repository": "$package_author/$package_name",
-  "author": "$package_author_name <$package_author_email>",
+  "description": "A function toolbelt to work with iterables",
+  "repository": "parro-it/iterate-fun",
+  "author": "Andrea <andrea@parro.it>",
   "license": "MIT",
   "files": [
     "index.js",
@@ -15,5 +15,11 @@
   },
   "keywords": [],
   "tonicExampleFilename": "example.js",
-  "module": "main.js"
+  "module": "main.js",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "documentation": "^4.0.0-beta.19",
+    "rollup": "^0.41.6",
+    "xo": "^0.18.1"
+  }
 }

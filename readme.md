@@ -1,6 +1,6 @@
-# $package_name
+# iterate-fun
 
-> $package_description
+> A function toolbelt to work with iterables
 
 background details relevant to understanding what this module does
 
@@ -9,9 +9,9 @@ background details relevant to understanding what this module does
 description of the example
 
 ```js
-const $package_var = require('$package_name');
+const iterateFun = require('iterate-fun');
 
-console.log({$package_var});
+console.log({iterateFun});
 ```
 
 This will output
@@ -19,14 +19,14 @@ This will output
 ```
 ```
 
-[![Travis Build Status](https://img.shields.io/travis/$package_author/$package_name/master.svg)](http://travis-ci.org/$package_author/$package_name)
-[![NPM downloads](https://img.shields.io/npm/dt/$package_name.svg)](https://npmjs.org/package/$package_name)
+[![Travis Build Status](https://img.shields.io/travis/parro-it/iterate-fun/master.svg)](http://travis-ci.org/parro-it/iterate-fun)
+[![NPM downloads](https://img.shields.io/npm/dt/iterate-fun.svg)](https://npmjs.org/package/iterate-fun)
 
 
 ## API
 
 ```js
-const $package_var = (): object
+const iterateFun = (): object
 ```
 
 description of the function signature
@@ -36,7 +36,7 @@ description of the function signature
 With [npm](https://npmjs.org/) installed, run
 
 ```
-$ npm install $package_name
+$ npm install iterate-fun
 ```
 
 ## See Also
