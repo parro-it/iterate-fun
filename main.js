@@ -1,15 +1,27 @@
-export function iterateFunction(fn, source) {
-	// Dconsole.log({source: typeof source[Symbol.iterator]})
-	if (typeof source[Symbol.iterator] === 'function') {
-		const sourceIterator = source[Symbol.iterator];
-		source = sourceIterator.call(source);
+export const Done = {};
+
+export const None = {};
+
+export function iterateFunction(fn) {
+	function next() {
+		const value = fn();
+
+		if (value === Done) {
+			return {done: true};
+		}
+
+		if (value === None) {
+			return next();
+		}
+
+		return {
+			value,
+			done: false
+		};
 	}
 
 	return {
-		[Symbol.iterator]: () => ({
-			next() {
-				return fn(source.next.bind(source));
-			}
-		})
+		[Symbol.iterator]: () => ({next})
 	};
 }
+
