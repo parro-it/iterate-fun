@@ -11,6 +11,7 @@
     "main.js"
   ],
   "scripts": {
+  	"doc": "documentation readme index.js --section=API",
     "test": "rollup -c && ava && xo --ignore example.js --ignore index.js"
   },
   "keywords": [],

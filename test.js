@@ -14,7 +14,7 @@ test('return an iteration of fn results', t => {
 	t.deepEqual(Array.from(result), [43, 44, 45]);
 });
 
-test('done stop the iteration', t => {
+test('Done stop the iteration', t => {
 	const arr = [42, 43, 44];
 	const result = iterateFunction(() => {
 		if (arr.length === 2) {
