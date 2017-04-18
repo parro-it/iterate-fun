@@ -1,6 +1,6 @@
 {
   "name": "iterate-fun",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A function toolbelt to work with iterables",
   "repository": "parro-it/iterate-fun",
   "author": "Andrea <andrea@parro.it>",
@@ -11,7 +11,7 @@
     "main.js"
   ],
   "scripts": {
-  	"doc": "documentation readme main.js --section=API",
+    "doc": "documentation readme main.js --section=API",
     "test": "rollup -c && ava && xo --ignore example.js --ignore index.js"
   },
   "keywords": [],
